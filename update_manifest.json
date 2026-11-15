@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "product": "AutoCleanFeatureX",
+  "version": "6.67.1",
+  "channel": "stable",
+  "minimum_supported_version": "6.67.0",
+  "mandatory": false,
+  "release_notes": "[WINDOWS-ONLY TEST — TEMPORARY]\nManifest ini hanya menyediakan Windows x64. macOS clients tidak mendapat paket sampai manifest multi-platform lengkap diterbitkan.\n\nAutoCleanFeatureX V6.67.1 by Elmo\nWindows x64 — Temporary Validation Release\n\nChanges:\n- Moved Delete Create controls into a dedicated group, separate from Cleanup.\n- Placed the Delete Create group below the USING section.\n- Preserved the existing application functionality and configuration.\n\nUpdate validation:\n- Windows x64 package only.\n- Intended for testing the automatic update from V6.67.0 to V6.67.1.\n- SHA-256 package integrity and Ed25519 manifest signature verification are required.\n\nImportant:\n- This is a temporary Windows-only validation release.\n- macOS Intel and Apple Silicon packages are not included in this test manifest.\n- Internal CSAdmin, SDP, and DNS features require appropriate company VPN and access permissions.\n- Do not treat this release as the final cross-platform distribution.",
+  "published_at": "2026-11-15T17:33:12Z",
+  "signature_algorithm": "Ed25519",
+  "packages": {
+    "windows-x64": {
+      "asset_name": "AutoCleanFeatureX_6.67.1_Windows_x64.zip",
+      "download_url": "https://github.com/AutoCleanFeatureX/AutoCleanFeatureX-Releases/releases/download/v6.67.1/AutoCleanFeatureX_6.67.1_Windows_x64.zip",
+      "sha256": "04dd580261ef74b3dcaea17ce918badbdac46215c41292da44d7df341cdc091b",
+      "size": 19544886
+    }
+  },
+  "signature": "zC+nOGDKcWmaBLEboWG0/tCOytppmwUmxMqcR9bQYm2inBq+NBIn/lQZs5S4y4etzmWPoBRmA/WUBf8zT63lCQ=="
+}
