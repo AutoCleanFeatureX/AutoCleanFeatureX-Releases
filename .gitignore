@@ -1,0 +1,5 @@
+# Public release repository: allow only the public README and the signed root manifest.
+*
+!.gitignore
+!README.md
+!update_manifest.json
