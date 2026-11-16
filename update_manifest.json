@@ -6,15 +6,15 @@
   "minimum_supported_version": "6.67.0",
   "mandatory": false,
   "release_notes": "[WINDOWS-ONLY TEST — TEMPORARY]\nManifest ini hanya menyediakan Windows x64. macOS clients tidak mendapat paket sampai manifest multi-platform lengkap diterbitkan.\n\nAutoCleanFeatureX V6.67.1 — Windows x64 update\n\nThis update moves Delete Create into a separate standalone group at the bottom of the center panel, below USING. Existing Delete Create Auto and Delete Create Manual workflows are retained. No other feature workflow is intended to change.\n\nThis initial validation release is Windows x64 only. macOS packages are not included in this test release; do not leave its Windows-only manifest as the long-term public manifest for macOS users.",
-  "published_at": "2026-11-16T00:18:12Z",
+  "published_at": "2026-11-16T01:35:30Z",
   "signature_algorithm": "Ed25519",
   "packages": {
     "windows-x64": {
       "asset_name": "AutoCleanFeatureX_6.67.1_Windows_x64.zip",
       "download_url": "https://github.com/AutoCleanFeatureX/AutoCleanFeatureX-Releases/releases/download/v6.67.1/AutoCleanFeatureX_6.67.1_Windows_x64.zip",
-      "sha256": "c6a2a48f5e16d1f8f31a3f9d73377f0e64eb627eb402024fc67c20eb8adf71d9",
-      "size": 19548761
+      "sha256": "073d0d9a8b6731fcc373808bc3e80b0d833c7e645d2bb2e1019d65fa847d0ce4",
+      "size": 19551062
     }
   },
-  "signature": "WNhHT4iogEYoSaXBtDsYhgFZM55RVcfKGycDDgyL8nzsOLe01n3Ppzud/Gsnrjbvzr0vU9J+68DH84wd4HCEAg=="
+  "signature": "sJlnWMwPL4pw+On0V2mGvMIex6U3rGMAGL04jyxvSQH7TyMqsa0LiefBPaODuDgcLJh5S92UmjAaTAgUMgFxBg=="
 }
