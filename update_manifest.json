@@ -12,9 +12,9 @@
     "windows-x64": {
       "asset_name": "AutoCleanFeatureX_6.67.1_Windows_x64.zip",
       "download_url": "https://github.com/AutoCleanFeatureX/AutoCleanFeatureX-Releases/releases/download/v6.67.1/AutoCleanFeatureX_6.67.1_Windows_x64.zip",
-      "sha256": "073d0d9a8b6731fcc373808bc3e80b0d833c7e645d2bb2e1019d65fa847d0ce4",
-      "size": 19551062
+      "sha256": "9f30700eac0f8686e4029aa6a18565ad7464a976df7c81203038441419a47f87",
+      "size": 19617794
     }
   },
-  "signature": "sJlnWMwPL4pw+On0V2mGvMIex6U3rGMAGL04jyxvSQH7TyMqsa0LiefBPaODuDgcLJh5S92UmjAaTAgUMgFxBg=="
+  "signature": "8739hDbhOQkuhVpkPYccvFQX0E2dSFvPvr4//Q/f4R+/f2eX0HnC24pwO1/+gMZNCineMVtsV9cA3sxSlYTgDw=="
 }
