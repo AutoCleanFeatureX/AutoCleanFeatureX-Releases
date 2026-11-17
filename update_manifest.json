@@ -5,16 +5,16 @@
   "channel": "stable",
   "minimum_supported_version": "6.67.0",
   "mandatory": false,
-  "release_notes": "[WINDOWS-ONLY TEST — TEMPORARY]\nManifest ini hanya menyediakan Windows x64. macOS clients tidak mendapat paket sampai manifest multi-platform lengkap diterbitkan.\n\nAutoCleanFeatureX V6.67.1 — Windows x64 update\n\nThis update moves Delete Create into a separate standalone group at the bottom of the center panel, below USING. Existing Delete Create Auto and Delete Create Manual workflows are retained. No other feature workflow is intended to change.\n\nThis initial validation release is Windows x64 only. macOS packages are not included in this test release; do not leave its Windows-only manifest as the long-term public manifest for macOS users.",
-  "published_at": "2026-11-16T01:35:30Z",
+  "release_notes": "[WINDOWS-ONLY TEST — TEMPORARY]\nManifest ini hanya menyediakan Windows x64. macOS clients tidak mendapat paket sampai manifest multi-platform lengkap diterbitkan.\n\nAutoCleanFeatureX V6.67.1 by Elmo\nWindows x64 — Temporary Validation Release\n\nChanges:\n- Moved Delete Create controls into a dedicated group below USING.\n- Updated Windows package downloads to use system curl.exe with Schannel TLS certificate verification.\n- Improved Windows portable updater staging, rollback handling, configuration preservation, and application relaunch.\n\nWindows validation:\n- Verified signed manifest and package integrity.\n- Verified Windows x64 ZIP and update helper.\n- Tested local installation from simulated V6.67.0 to V6.67.1.\n- Verified automatic application relaunch and preservation of network settings.\n\nImportant:\n- This is a temporary Windows-only validation release.\n- macOS Intel and Apple Silicon packages are not included.\n- Do not promote this release as the final cross-platform release until complete macOS packages are available.",
+  "published_at": "2026-11-17T01:19:20Z",
   "signature_algorithm": "Ed25519",
   "packages": {
     "windows-x64": {
       "asset_name": "AutoCleanFeatureX_6.67.1_Windows_x64.zip",
       "download_url": "https://github.com/AutoCleanFeatureX/AutoCleanFeatureX-Releases/releases/download/v6.67.1/AutoCleanFeatureX_6.67.1_Windows_x64.zip",
-      "sha256": "9f30700eac0f8686e4029aa6a18565ad7464a976df7c81203038441419a47f87",
-      "size": 19617794
+      "sha256": "94c8f75fecd2260c36e2d06f9ddecda2611c877b097ddee7883c0c479fd58937",
+      "size": 19414367
     }
   },
-  "signature": "8739hDbhOQkuhVpkPYccvFQX0E2dSFvPvr4//Q/f4R+/f2eX0HnC24pwO1/+gMZNCineMVtsV9cA3sxSlYTgDw=="
+  "signature": "Hyzdb5GeMP6PsxlLFLT1laluUDMaYIO+J3cdfeOe+MXoAmoQh12Q0lYuks9D6uQRK8CJelSMS/XXnVhKF9KxCA=="
 }
